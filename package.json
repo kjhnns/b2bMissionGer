@@ -1,0 +1,25 @@
+{
+  "name": "b2bmission",
+  "version": "1.0.0",
+  "description": "B2B Mission Germany",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjhnns/b2bMissionGer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjhnns/b2bMissionGer/issues"
+  },
+  "homepage": "https://github.com/kjhnns/b2bMissionGer#readme"
+}
