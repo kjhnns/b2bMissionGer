@@ -1,0 +1,143 @@
+.smallfont {
+  font-size: 0.7em;
+}
+
+.centerfont {
+  text-align: center;
+}
+
+.space {
+    margin-top: 10rem;
+}
+
+label {
+    font-weight: lighter;
+}
+
+.highlight {
+    color: #86161a;
+}
+
+.footer {
+  padding-top: 3em;
+    width: 100%;
+    min-height: 250px;
+    background: #CCC;
+}
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+    background-color: #86161a;
+    border: 0.1rem solid #86161a;
+}
+
+.button.button-disabled:hover,
+.button.button-disabled:focus,
+.button[disabled]:hover,
+.button[disabled]:focus,
+button.button-disabled:hover,
+button.button-disabled:focus,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type='button'].button-disabled:hover,
+input[type='button'].button-disabled:focus,
+input[type='button'][disabled]:hover,
+input[type='button'][disabled]:focus,
+input[type='reset'].button-disabled:hover,
+input[type='reset'].button-disabled:focus,
+input[type='reset'][disabled]:hover,
+input[type='reset'][disabled]:focus,
+input[type='submit'].button-disabled:hover,
+input[type='submit'].button-disabled:focus,
+input[type='submit'][disabled]:hover,
+input[type='submit'][disabled]:focus {
+    background-color: #86161a;
+    border-color: #86161a;
+}
+
+.button.button-outline,
+button.button-outline,
+input[type='button'].button-outline,
+input[type='reset'].button-outline,
+input[type='submit'].button-outline {
+    color: #86161a;
+    background-color: transparent;
+}
+
+.button.button-outline.button-disabled:hover,
+.button.button-outline.button-disabled:focus,
+.button.button-outline[disabled]:hover,
+.button.button-outline[disabled]:focus,
+button.button-outline.button-disabled:hover,
+button.button-outline.button-disabled:focus,
+button.button-outline[disabled]:hover,
+button.button-outline[disabled]:focus,
+input[type='button'].button-outline.button-disabled:hover,
+input[type='button'].button-outline.button-disabled:focus,
+input[type='button'].button-outline[disabled]:hover,
+input[type='button'].button-outline[disabled]:focus,
+input[type='reset'].button-outline.button-disabled:hover,
+input[type='reset'].button-outline.button-disabled:focus,
+input[type='reset'].button-outline[disabled]:hover,
+input[type='reset'].button-outline[disabled]:focus,
+input[type='submit'].button-outline.button-disabled:hover,
+input[type='submit'].button-outline.button-disabled:focus,
+input[type='submit'].button-outline[disabled]:hover,
+input[type='submit'].button-outline[disabled]:focus {
+    color: #86161a;
+    border-color: inherit;
+}
+
+.button.button-clear,
+button.button-clear,
+input[type='button'].button-clear,
+input[type='reset'].button-clear,
+input[type='submit'].button-clear {
+    color: #86161a;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.button.button-clear.button-disabled:hover,
+.button.button-clear.button-disabled:focus,
+.button.button-clear[disabled]:hover,
+.button.button-clear[disabled]:focus,
+button.button-clear.button-disabled:hover,
+button.button-clear.button-disabled:focus,
+button.button-clear[disabled]:hover,
+button.button-clear[disabled]:focus,
+input[type='button'].button-clear.button-disabled:hover,
+input[type='button'].button-clear.button-disabled:focus,
+input[type='button'].button-clear[disabled]:hover,
+input[type='button'].button-clear[disabled]:focus,
+input[type='reset'].button-clear.button-disabled:hover,
+input[type='reset'].button-clear.button-disabled:focus,
+input[type='reset'].button-clear[disabled]:hover,
+input[type='reset'].button-clear[disabled]:focus,
+input[type='submit'].button-clear.button-disabled:hover,
+input[type='submit'].button-clear.button-disabled:focus,
+input[type='submit'].button-clear[disabled]:hover,
+input[type='submit'].button-clear[disabled]:focus {
+    color: #86161a;
+}
+
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus,
+select:focus {
+    border: 0.1rem solid #86161a;
+    outline: 0;
+}
+
+a {
+    color: #86161a;
+    text-decoration: none;
+}
