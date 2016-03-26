@@ -2,12 +2,18 @@
   font-size: 0.7em;
 }
 
+.gray {
+  background: #eee;
+  padding-bottom:2em;
+  margin-bottom:2em;
+}
+
 .centerfont {
   text-align: center;
 }
 
 .space {
-    margin-top: 10rem;
+    padding-top: 10rem;
 }
 
 label {
