@@ -1,15 +1,22 @@
 .smallfont {
-  font-size: 0.7em;
+    font-size: 0.7em;
 }
 
 .gray {
-  background: #eee;
-  padding-bottom:2em;
-  margin-bottom:2em;
+    background: #eee;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 40.0rem) {
+    .logoimg {
+        flex: 0 !important;
+        margin-left: 15% !important;
+    }
 }
 
 .centerfont {
-  text-align: center;
+    text-align: center;
 }
 
 .space {
@@ -25,7 +32,7 @@ label {
 }
 
 .footer {
-  padding-top: 3em;
+    padding-top: 3em;
     width: 100%;
     min-height: 250px;
     background: #CCC;
