@@ -4,8 +4,7 @@
   "description": "B2B Mission Germany",
   "main": "server.js",
   "dependencies": {
-    "connect": "^3.4.1",
-    "serve-static": "^1.10.2"
+    "express": "latest"
   },
   "devDependencies": {},
   "scripts": {
