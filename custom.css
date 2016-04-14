@@ -2,6 +2,10 @@
     font-size: 0.7em;
 }
 
+.lHAdj {
+    line-height: 1.6em
+}
+
 .gray {
     background: #eee;
     padding-bottom: 2em;
@@ -13,6 +17,12 @@
         flex: 0 !important;
         margin-left: 15% !important;
     }
+}
+
+h4 {
+text-transform: uppercase;
+font-size: 1.5em;
+
 }
 
 .centerfont {
