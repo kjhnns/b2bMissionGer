@@ -6,6 +6,10 @@
     line-height: 1.6em
 }
 
+#toggle, #toggle2 {
+    display: none;
+}
+
 #toggler {
     cursor: pointer;
     text-align: center;
@@ -124,7 +128,7 @@ button.button-clear,
 input[type='button'].button-clear,
 input[type='reset'].button-clear,
 input[type='submit'].button-clear {
-    color: #86161a;
+    color: #888;
     background-color: transparent;
     border-color: transparent;
 }
