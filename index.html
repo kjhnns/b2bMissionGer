@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
     <link rel="stylesheet" href="custom.css">
     <link rel="icon" href="assets/favicon.ico" type="image/ico" />
+    <script>
+    window.onload = function() {
+        var elrr = document.getElementById("toggler");
+        var elr = document.getElementById("toggle");
+        elr.style.display = "none";
+        elrr.addEventListener('click', function() {
+            var elr = document.getElementById("toggle");
+            if (elr.style.display != "none") {
+                elr.style.display = "none";
+            } else {
+                elr.style.display = "inline";
+            }
+        });
+
+    }
+    </script>
 </head>
 
 <body>
@@ -17,41 +33,37 @@
         <div class="container">
             <div class="row space">
                 <div class="column">
-                    <h1 class="highlight centerfont">Geschäftsanbahnung mit kompetenten IT-Firmen aus den palästinensischen Gebieten</h1></div>
+                    <h1 class="highlight centerfont">Geschäftsanbahnung mit kompetenten IT-Firmen aus Palästina</h1></div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row ">
             <div class="column column-80 column-offset-10">
-
-                <p><a href="https://www.icon-institute.de/">ICON-INSTITUT</a> und die <a href="https://www.giz.de">Gesellschaft für Internationale Zusammenarbeit (GIZ)</a> möchten Sie zur Teilnahme an unserer B2B-Mission in Deutschland, die im Rahmen einer Entwicklungszusammenarbeit durchgeführt wird, einladen. Ziel der B2B-Mission ist es, palästinensischen und deutschen Firmen eine Plattform zu bieten, die es ermöglicht, Kooperationspotentiale zu identifizieren und Geschäftsbeziehungen zwischen IT-Unternehmen aus Deutschland und der palästinensischen Region anzubahnen. </p>
-<p>Im Vorfeld haben wir kompetente palästinensische IT-Unternehmen als Geschäftspartner identifiziert, die bereits auf dem internationalen Markt tätig sind und Potentiale zur Vermarktung und dem Support von deutschen Produkten in der MENA-Region vorweisen.
-Im Rahmen dieser B2B-Mission möchten wir Sie gerne mit unseren palästinensischen Kandidaten an Ihrem Firmenstandort besuchen. </p>
-
-<p>Optionen zur Zusammenarbeit bestehen z. B. durch Outsourcing von IT-Dienstleistungen einerseits und die Unterstützung der deutschen Partner bei einer möglichen Expansion in die arabische Region andererseits. Die palästinensischen Unternehmen sind hierbei auf der Suche nach langfristigen Geschäftsbeziehungen. </p>
-
-<p>ICON INSTITUT steht für über 40 Jahre Erfahrung in der Entwicklung, Planung und Realisierung internationaler Projekte, von Workshops, Events und B2B-Treffen sowie individueller Markteintrittsstrategien. Als eine der führenden deutschen Beratungsfirmen im Bereich der Entwicklungszusammenarbeit führen wir zurzeit im Auftrag der Gesellschaft für Internationale Zusammenarbeit (GIZ) dieses Projekt zur Stärkung der Wettbewerbsfähigkeit von palästinensischen Unternehmen im IT-Sektor und zum Aufbau von deutsch- palästinensischen Partnerschaften im IT-Sektor durch. Finanziert wird das Vorhaben vom <a href="http://www.bmz.de/">Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</a>.
-</p>
-
-<table>
-<tr>
-<td><h4>Wo</h4></td><td><p class="lHAdj">Vertreter der ausgewählten palästinensischen Firmen werden nach Deutschland reisen, <a>um die teilnehmenden deutschen Firmen zu besuchen</a>. Die palästinensische Delegation wird von einem Mitarbeiter des ICON-INSTITUT begleitet.</p></td>
-</tr>
-<tr>
-<td style="border-bottom:0"><h4>Wann</h4></td><td style="border-bottom:0"><p class="lHAdj">Die B2B-Mission wird vom <a>11. bis zum 13. Mai</a> stattfinden. Sobald Sie Ihre Teilnahme bestätigt und Ihren präferierten Standort des Treffens angegeben haben, werden wir Sie in die logistische Planung einbeziehen und Ihnen einen Terminvorschlag zukommen lassen.</p></td>
-</tr>
-</table>
-
-
-
-
-
-
-
-
-
-
+                <p><a href="https://www.icon-institute.de/">ICON-INSTITUT</a> und die <a href="https://www.giz.de">Gesellschaft für Internationale Zusammenarbeit (GIZ)</a> möchten Sie zur Teilnahme an unserer B2B-Mission in Deutschland, die im Rahmen einer Entwicklungszusammenarbeit durchgeführt wird, einladen. Ziel der B2B-Mission ist es, palästinensischen und deutschen Firmen eine Plattform zu bieten, die es ermöglicht, Kooperationspotentiale zu identifizieren und Geschäftsbeziehungen zwischen IT-Unternehmen aus Deutschland und Palästina anzubahnen. </p>
+                <table>
+                    <tr>
+                        <td>
+                            <h4>Wo</h4></td>
+                        <td>
+                            <p class="lHAdj">Vertreter der ausgewählten palästinensischen Firmen werden nach Deutschland reisen, <a>um die teilnehmenden deutschen Firmen zu besuchen</a>. Die palästinensische Delegation wird von einem Mitarbeiter des ICON-INSTITUT begleitet.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:0">
+                            <h4>Wann</h4></td>
+                        <td style="border-bottom:0">
+                            <p class="lHAdj">Die B2B-Mission wird vom <a>11. bis zum 13. Mai</a> stattfinden. Sobald Sie Ihre Teilnahme bestätigt und Ihren präferierten Standort des Treffens angegeben haben, werden wir Sie in die logistische Planung einbeziehen und Ihnen einen Terminvorschlag zukommen lassen.</p>
+                        </td>
+                    </tr>
+                </table>
+                <p id="toggler"><a class="button button-outline">weitere Informationen</a></p>
+                <div id="toggle">
+                    <p>Im Vorfeld haben wir kompetente palästinensische IT-Unternehmen als Geschäftspartner identifiziert, die bereits auf dem internationalen Markt tätig sind und Potentiale zur Vermarktung und dem Support von deutschen Produkten in der MENA-Region vorweisen. Im Rahmen dieser B2B-Mission möchten wir Sie gerne mit unseren palästinensischen Kandidaten an Ihrem Firmenstandort besuchen. </p>
+                    <p>Optionen zur Zusammenarbeit bestehen z. B. durch Outsourcing von IT-Dienstleistungen einerseits und die Unterstützung der deutschen Partner bei einer möglichen Expansion in die arabische Region andererseits. Die palästinensischen Unternehmen sind hierbei auf der Suche nach langfristigen Geschäftsbeziehungen. </p>
+                    <p>ICON INSTITUT steht für über 40 Jahre Erfahrung in der Entwicklung, Planung und Realisierung internationaler Projekte, von Workshops, Events und B2B-Treffen sowie individueller Markteintrittsstrategien. Als eine der führenden deutschen Beratungsfirmen im Bereich der Entwicklungszusammenarbeit führen wir zurzeit im Auftrag der Gesellschaft für Internationale Zusammenarbeit (GIZ) dieses Projekt zur Stärkung der Wettbewerbsfähigkeit von palästinensischen Unternehmen im IT-Sektor und zum Aufbau von deutsch- palästinensischen Partnerschaften im IT-Sektor durch. Finanziert wird das Vorhaben vom <a href="http://www.bmz.de/">Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</a>.
+                    </p>
+                </div>
             </div>
         </div>
         <div class="row ">
@@ -60,9 +72,15 @@ Im Rahmen dieser B2B-Mission möchten wir Sie gerne mit unseren palästinensisch
             </div>
         </div>
         <div class="row">
-            <div class="column column-33 logoimg" style="text-align: left;"><a href="https://www.giz.de"><img alt="" src="assets/giz.png" style="width: 300px; height: 102px;" /></a></div>
-            <div class="column column-33 logoimg" style="text-align: center;"><a href=""><img alt="http://www.pita.ps/" src="assets/pita.png" style="width: 200px; height: 113px;" /></a></div>
-            <div class="column column-33 logoimg" style="text-align: right;"><a href="https://www.icon-institute.de/"><img alt="" src="assets/icon.png" style="width: 80px; height: 80px; margin-right: 20px" /></a></div>
+            <div class="column column-33 logoimg" style="text-align: left;">
+                <a href="https://www.giz.de"><img alt="" src="assets/giz.png" style="width: 300px; height: 102px;" /></a>
+            </div>
+            <div class="column column-33 logoimg" style="text-align: center;">
+                <a href=""><img alt="http://www.pita.ps/" src="assets/pita.png" style="width: 200px; height: 113px;" /></a>
+            </div>
+            <div class="column column-33 logoimg" style="text-align: right;">
+                <a href="https://www.icon-institute.de/"><img alt="" src="assets/icon.png" style="width: 80px; height: 80px; margin-right: 20px" /></a>
+            </div>
         </div>
         <div class="row">
             <div class="column">

@@ -6,6 +6,11 @@
     line-height: 1.6em
 }
 
+#toggler {
+    cursor: pointer;
+    text-align: center;
+}
+
 .gray {
     background: #eee;
     padding-bottom: 2em;
