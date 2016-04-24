@@ -2,23 +2,54 @@
     font-size: 0.7em;
 }
 
+.profile {
+color: #777;
+}
+
+.stock {
+    background: url('assets/stock.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 220px;
+    margin-bottom: 2em;
+}
+
+span.hl {
+    background: #eee;
+}
+
 .lHAdj {
     line-height: 1.6em
 }
 
-#toggle, #toggle2 {
+#togglA,
+#togglB {
     display: none;
 }
 
-#toggler {
+#togglrA {
     cursor: pointer;
     text-align: center;
+}
+
+.subtitle {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+}
+
+.button-sized {
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.3em;
 }
 
 .gray {
     background: #eee;
     padding-bottom: 2em;
-    margin-bottom: 2em;
 }
 
 @media (max-width: 40.0rem) {
@@ -29,9 +60,9 @@
 }
 
 h4 {
-text-transform: uppercase;
-font-size: 1.5em;
-
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
 }
 
 .centerfont {

@@ -12,35 +12,22 @@
     <link rel="icon" href="assets/favicon.ico" type="image/ico" />
     <script>
     window.onload = function() {
-
-        (function() {
-            var elrr = document.getElementById("toggler");
-            var elr = document.getElementById("toggle");
+        var toggle = function(toggler, toggle) {
+            var elrr = document.getElementById(toggler);
+            var elr = document.getElementById(toggle);
             elr.style.display = "none";
             elrr.addEventListener('click', function() {
-                var elr = document.getElementById("toggle");
+                var elr = document.getElementById(toggle);
                 if (elr.style.display != "none") {
                     elr.style.display = "none";
                 } else {
                     elr.style.display = "inline";
                 }
             });
-        })();
+        };
 
-        (function() {
-            var elrr = document.getElementById("toggler2");
-            var elr = document.getElementById("toggle2");
-            elr.style.display = "none";
-            elrr.addEventListener('click', function() {
-                var elr = document.getElementById("toggle2");
-                if (elr.style.display != "none") {
-                    elr.style.display = "none";
-                } else {
-                    elr.style.display = "inline";
-                }
-            });
-        })();
-
+        toggle("togglrA", "togglA");
+        toggle("togglrB", "togglB");
     }
     </script>
 </head>
@@ -50,10 +37,15 @@
         <div class="container">
             <div class="row space">
                 <div class="column">
-                    <h1 class="highlight centerfont">Geschäftsanbahnung mit kompetenten IT-Firmen aus Palästina</h1></div>
+                    <h1 class="highlight centerfont">IT-Outsourcing. Expansion. Arabische Region.</h1></div>
             </div>
         </div>
+        <div class="row">
+            <div class="column">
+                <h2 class="subtitle centerfont">Geschäftsanbahnung mit kompetenten IT-Firmen aus Palästina</h2></div>
+        </div>
     </div>
+    <div class="stock"></div>
     <div class="container">
         <div class="row ">
             <div class="column column-80 column-offset-10">
@@ -63,24 +55,53 @@
                         <td>
                             <h4>Wo</h4></td>
                         <td>
-                            <p class="lHAdj">Vertreter der ausgewählten palästinensischen Firmen werden nach Deutschland reisen, <a>um die teilnehmenden deutschen Firmen zu besuchen</a>. Die palästinensische Delegation wird von einem Mitarbeiter des ICON-INSTITUT begleitet.</p>
+                            <p class="lHAdj">Vertreter der ausgewählten palästinensischen Firmen werden nach Deutschland reisen, <span class="hl">um die teilnehmenden deutschen Firmen zu besuchen</span>. Die palästinensische Delegation wird von einem Mitarbeiter des ICON-INSTITUT begleitet.</p>
                         </td>
                     </tr>
                     <tr>
                         <td style="border-bottom:0">
                             <h4>Wann</h4></td>
                         <td style="border-bottom:0">
-                            <p class="lHAdj">Die B2B-Mission wird vom <a>11. bis zum 13. Mai</a> stattfinden. Sobald Sie Ihre Teilnahme bestätigt und Ihren präferierten Standort des Treffens angegeben haben, werden wir Sie in die logistische Planung einbeziehen und Ihnen einen Terminvorschlag zukommen lassen.</p>
+                            <p class="lHAdj">Die B2B-Mission wird vom <span class="hl">11. bis zum 13. Mai</span> stattfinden. Sobald Sie Ihre Teilnahme bestätigt und Ihren präferierten Standort des Treffens angegeben haben, werden wir Sie in die logistische Planung einbeziehen und Ihnen einen Terminvorschlag zukommen lassen.</p>
                         </td>
                     </tr>
                 </table>
-                <div id="toggle">
+                <div id="togglA">
                     <p>Im Vorfeld haben wir kompetente palästinensische IT-Unternehmen als Geschäftspartner identifiziert, die bereits auf dem internationalen Markt tätig sind und Potentiale zur Vermarktung und dem Support von deutschen Produkten in der MENA-Region vorweisen. Im Rahmen dieser B2B-Mission möchten wir Sie gerne mit unseren palästinensischen Kandidaten an Ihrem Firmenstandort besuchen. </p>
                     <p>Optionen zur Zusammenarbeit bestehen z. B. durch Outsourcing von IT-Dienstleistungen einerseits und die Unterstützung der deutschen Partner bei einer möglichen Expansion in die arabische Region andererseits. Die palästinensischen Unternehmen sind hierbei auf der Suche nach langfristigen Geschäftsbeziehungen. </p>
-                    <p>ICON INSTITUT steht für über 40 Jahre Erfahrung in der Entwicklung, Planung und Realisierung internationaler Projekte, von Workshops, Events und B2B-Treffen sowie individueller Markteintrittsstrategien. Als eine der führenden deutschen Beratungsfirmen im Bereich der Entwicklungszusammenarbeit führen wir zurzeit im Auftrag der Gesellschaft für Internationale Zusammenarbeit (GIZ) dieses Projekt zur Stärkung der Wettbewerbsfähigkeit von palästinensischen Unternehmen im IT-Sektor und zum Aufbau von deutsch- palästinensischen Partnerschaften im IT-Sektor durch. Finanziert wird das Vorhaben vom <a href="http://www.bmz.de/">Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</a>.
-                    </p>
+                    <p>ICON INSTITUT steht für über 40 Jahre Erfahrung in der Entwicklung, Planung und Realisierung internationaler Projekte, von Workshops, Events und B2B-Treffen sowie individueller Markteintrittsstrategien. Als eine der führenden deutschen Beratungsfirmen im Bereich der Entwicklungszusammenarbeit führen wir zurzeit im Auftrag der Gesellschaft für Internationale Zusammenarbeit (GIZ) dieses Projekt zur Stärkung der Wettbewerbsfähigkeit von palästinensischen Unternehmen im IT-Sektor und zum Aufbau von deutsch- palästinensischen Partnerschaften im IT-Sektor durch. Finanziert wird das Vorhaben vom <a href="http://www.bmz.de/">Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)</a>.</p>
+                    <h1>Palästinensische Unternehmen</h1>
+                    <table>
+                        <tr>
+                            <td><a class="profile" href="profiles/ALTARIQ Systems & Projects.pdf">ALTARIQ Systems & Projects</a></td>
+                            <td><a class="profile" href="profiles/ASAL Technologies.pdf">ASAL Technologies</a></td>
+                        </tr>
+                        <tr>
+                            <td><a class="profile" href="profiles/Dimensions Information Technology.pdf">Dimensions Information Technology</a></td>
+                            <td><a class="profile" href="profiles/EXALT Technologies.pdf">EXALT Technologies</a></td>
+                        </tr>
+                        <tr>
+                            <td><a class="profile" href="profiles/iConnect Technologies.pdf">iConnect Technologies</a></td>
+                            <td><a class="profile" href="profiles/ICT Warehouse Software and Communications.pdf">ICT Warehouse Software and Communications</a></td>
+                        </tr>
+                        <tr>
+                            <td><a class="profile" href="profiles/JaffaNet.pdf">Jaffa.Net</a></td>
+                            <td><a class="profile" href="profiles/Mozn.pdf">Mozn</a></td>
+                        </tr>
+                        <tr>
+                            <td><a class="profile" href="profiles/Palestine Consulate Center PCC MAF.pdf">Palestine Consulate Center PCC/MAF</a></td>
+                            <td><a class="profile" href="profiles/Professionals For IT Services (PITS).pdf">Professionals For IT Services (PITS)</a></td>
+                        </tr>
+                        <tr>
+                            <td><a class="profile" href="profiles/ProGineer Technologies.pdf">ProGineer Technologies</a></td>
+                            <td><a class="profile" href="profiles/UnitOne Software and Communications.pdf">UnitOne Software and Communications</a></td>
+                        </tr>
+                        <tr>
+                            <td style="border:0"><a class="profile" href="profiles/VISIONPLUS Software and Communications.pdf">VISIONPLUS Software and Communications</a></td>
+                        </tr>
+                    </table>
                 </div>
-                <p id="toggler"><a class="button button-outline">weitere Informationen</a></p>
+                <p id="togglrA"><a class="button button-outline button-sized">weitere Informationen</a></p>
             </div>
         </div>
         <div class="row ">
@@ -109,18 +130,20 @@
                 <h1 class="highlight">Interesse geweckt?</h1>
                 <form action="https://formspree.io/b2b@icon-institute.de" method="POST">
                     <fieldset>
-                        <label>Wie heißen Sie?*</label>
+                        <label>* Wie heißen Sie?</label>
                         <input type="text" name="Name" required>
-                        <label>Wie lautet der Name Ihrer Firma?*</label>
+                        <label>* Wie lautet der Name Ihres Unternehmens?</label>
                         <input type="text" name="Firma" required>
-                        <label>Wie lautet Ihre E-Mail Adresse?*</label>
+                        <label>* Wie lautet Ihre E-Mail-Adresse?</label>
                         <input type="email" name="E-Mail" required>
-                        <label>Wo ist der Standort Ihrer Firma?*</label>
+                        <label>* Wo ist der Standort Ihrer Firma?</label>
                         <input type="text" name="Standort" required>
                         <label>Auf welche Branche/Dienstleistung legt Ihre Firma einen Fokus?</label>
                         <input type="text" name="Fokus">
-                        <input type="hidden" name="_next" value="https://b2bevent.herokuapp.com/danke.html">
-                        <input class="button-red" type="submit" value="Abschicken">
+                        <input type="hidden" name="_next" value="https://b2b.icon-institute.de/danke.html">
+                        <p style="text-align: right;">
+                            <input class="button-red" type="submit" value="Abschicken">
+                        </p>
                     </fieldset>
                 </form>
             </div>
@@ -136,13 +159,13 @@
                     <p class="smallfont centerfont">Von-Groote-Str. 28
                         <br/>50968 Köln
                         <br/>Germany</p>
-                    <div id="toggle2">
+                    <div id="togglB">
                         <p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link (http://tools.google.com/dlpage/gaoptout?hl=de) verfügbare Browser-Plugin herunterladen und installieren.</p>
                         <p>Sie können die Erfassung durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, das die zukünftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert:
                             <a href=“javascript:gaOptout()“>Google Analytics deaktivieren</a></p>
                         <p>Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter http://www.google.com/analytics/terms/de.html bzw. unter https://www.google.de/intl/de/policies/. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code „anonymizeIp“ erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten.</p>
                     </div>
-                    <p id="toggler2" class="smallfont centerfont"><a class="button button-clear ">Datenschutzerklärung</a></p>
+                    <p id="togglrB" class="smallfont centerfont"><a class="button button-clear ">Datenschutzerklärung</a></p>
                 </div>
             </div>
         </div>
