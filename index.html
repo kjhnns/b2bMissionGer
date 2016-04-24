@@ -10,26 +10,6 @@
     <link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
     <link rel="stylesheet" href="custom.css">
     <link rel="icon" href="assets/favicon.ico" type="image/ico" />
-    <script>
-    window.onload = function() {
-        var toggle = function(toggler, toggle) {
-            var elrr = document.getElementById(toggler);
-            var elr = document.getElementById(toggle);
-            elr.style.display = "none";
-            elrr.addEventListener('click', function() {
-                var elr = document.getElementById(toggle);
-                if (elr.style.display != "none") {
-                    elr.style.display = "none";
-                } else {
-                    elr.style.display = "inline";
-                }
-            });
-        };
-
-        toggle("togglrA", "togglA");
-        toggle("togglrB", "togglB");
-    }
-    </script>
 </head>
 
 <body>
@@ -171,6 +151,25 @@
         </div>
     </div>
     <script>
+    window.onload = function() {
+        var toggle = function(toggler, toggle) {
+            var elrr = document.getElementById(toggler);
+            var elr = document.getElementById(toggle);
+            elr.style.display = "none";
+            elrr.addEventListener('click', function() {
+                var elr = document.getElementById(toggle);
+                if (elr.style.display != "none") {
+                    elr.style.display = "none";
+                } else {
+                    elr.style.display = "inline";
+                }
+            });
+        };
+
+        toggle("togglrA", "togglA");
+        toggle("togglrB", "togglB");
+    }
+
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function() {
